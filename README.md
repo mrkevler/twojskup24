@@ -4,7 +4,7 @@
 
 **Repository:** [mrkevler/twojskup24](https://github.com/mrkevler/twojskup24)
 
-**Demo** 🌐 [twojskup24.pl](https://twojskup24.pl/)
+<!-- **Demo** 🌐 [twojskup24.pl](https://twojskup24.pl/) -->
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white) ![SEO](https://img.shields.io/badge/SEO-Optimized-4CAF50) ![GDPR](https://img.shields.io/badge/GDPR-Compliant-2196F3)
 
