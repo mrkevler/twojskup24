@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize all functionality
+  initHeroOverlay(); // Add dark overlay to hero backgrounds
   initMobileMenu();
   initBusinessStatistics(); // Initialize business statistics first
   initCounters();
@@ -13,6 +14,40 @@ document.addEventListener("DOMContentLoaded", function () {
   initYearDropdown();
   initCookieSettingsLink();
 });
+
+// Hero Background Overlay - Add dark mask to all hero sections
+function initHeroOverlay() {
+  const heroSections = document.querySelectorAll(".hero-section");
+
+  heroSections.forEach((heroSection) => {
+    const heroBackground = heroSection.querySelector(".hero-background");
+
+    if (heroBackground) {
+      // Check if overlay already exists to avoid duplicates
+      let overlay = heroSection.querySelector(".hero-background-overlay");
+
+      if (!overlay) {
+        // Create overlay element
+        overlay = document.createElement("div");
+        overlay.className = "hero-background-overlay";
+        overlay.style.cssText = `
+          position: absolute;
+          inset: 0;
+          background-color: #000000;
+          opacity: 0.6;
+          z-index: 1;
+          pointer-events: none;
+        `;
+
+        // Insert overlay after hero-background
+        heroBackground.parentNode.insertBefore(
+          overlay,
+          heroBackground.nextSibling
+        );
+      }
+    }
+  });
+}
 
 // Mobile Menu Toggle
 function initMobileMenu() {
