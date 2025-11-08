@@ -100,16 +100,16 @@
 @keyframes heroSlide {
   0%,
   100% {
-    transform: translateY(0) scale(1.1);
+    transform: translateY(0) scale(1.25);
   }
   25% {
-    transform: translateY(-20px) scale(1.15);
+    transform: translateY(-20px) scale(1.3);
   }
   50% {
-    transform: translateY(-40px) scale(1.1);
+    transform: translateY(-40px) scale(1.25);
   }
   75% {
-    transform: translateY(-60px) scale(1.15);
+    transform: translateY(-60px) scale(1.3);
   }
 }
 
