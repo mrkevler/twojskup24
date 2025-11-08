@@ -1,0 +1,51 @@
+# FORCE root index.html as the ONLY default document
+
+DirectoryIndex index.html
+
+# Prevent directory listing
+
+Options -Indexes
+
+# Prevent access to sensitive files
+
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|conf|zip)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# Enable CORS for API endpoints
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://twojskup24.pl"
+    Header set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+
+# Force HTTPS (optional but recommended)
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.\*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect /nasze-uslugi/ to /nasze-uslugi/index.html
+
+RewriteRule ^nasze-uslugi/$ nasze-uslugi/index.html [L]
+
+# CRITICAL: Force root requests to index.html
+
+RewriteRule ^$ index.html [L]
+
+# Prevent access to nasze-uslugi directory when requesting root
+
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ index.html [L]
+
+# Prevent caching issues
+
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+    Header set X-Served-File "root-index.html"
+    Header set X-Debug "htaccess-active"
+</IfModule>

@@ -1,0 +1,97 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Marek Kowalski",
+      "location": "Bydgoszcz",
+      "rating": 5,
+      "date": "2025-09-20",
+      "text": "Profesjonalna obsługa, uczciwe ceny i szybka realizacja. Sprzedałem swoje BMW w 2 godziny od pierwszego kontaktu. Polecam wszystkim!",
+      "verified": true
+    },
+    {
+      "id": 2,
+      "author": "Anna Nowak",
+      "location": "Toruń",
+      "rating": 5,
+      "date": "2025-09-18",
+      "text": "Sprzedałam auto w dosłownie 2 godziny! Przjechali, sprawdzili stan techniczny i od razu zapłacili gotówką. Żadnych ukrytych kosztów.",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "author": "Tomasz Wiśniewski",
+      "location": "Inowrocław",
+      "rating": 5,
+      "date": "2025-09-15",
+      "text": "Najlepsza firma skupu w regionie. Konkurencyjne ceny, zero problemów z papierami i profesjonalna obsługa. Serdecznie polecam!",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "author": "Katarzyna Lewandowska",
+      "location": "Bydgoszcz",
+      "rating": 5,
+      "date": "2025-09-12",
+      "text": "Bardzo zadowolona z współpracy. Szybka wycena, uczciwe podejście i płatność na miejscu. Będę polecać znajomym!",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "author": "Piotr Jankowski",
+      "location": "Grudziądz",
+      "rating": 5,
+      "date": "2025-09-10",
+      "text": "Sprzedawałem auto po raz pierwszy i bardzo się stresowałem. Tutaj wszystko przebiegło gładko - profesjonalnie, szybko i bez stresu.",
+      "verified": true
+    },
+    {
+      "id": 6,
+      "author": "Magdalena Krawczyk",
+      "location": "Włocławek",
+      "rating": 5,
+      "date": "2025-09-08",
+      "text": "Polecam! Auto zabrali tego samego dnia, zapłacili od ręki gotówką. Obsługa na najwyższym poziomie.",
+      "verified": true
+    },
+    {
+      "id": 7,
+      "author": "Michał Zieliński",
+      "location": "Bydgoszcz",
+      "rating": 5,
+      "date": "2025-09-05",
+      "text": "Szukałem skupu, który uczciwie wyceni moje auto. TwójSkup24 przekroczył moje oczekiwania - dostałem więcej niż myślałem!",
+      "verified": true
+    },
+    {
+      "id": 8,
+      "author": "Joanna Mazur",
+      "location": "Toruń",
+      "rating": 5,
+      "date": "2025-09-03",
+      "text": "Bardzo miła obsługa i profesjonalne podejście. Auto zostało wycenione rzetelnie, a płatność natychmiastowa. Gorąco polecam!",
+      "verified": true
+    },
+    {
+      "id": 9,
+      "author": "Robert Król",
+      "location": "Nakło nad Notecią",
+      "rating": 5,
+      "date": "2025-08-30",
+      "text": "Fantastyczna firma! Szybko, sprawnie i uczciwie. Dostałem gotówkę od ręki za swoje auto. Dziękuję za profesjonalizm!",
+      "verified": true
+    },
+    {
+      "id": 10,
+      "author": "Ewa Dąbrowska",
+      "location": "Świecie",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Polecam z czystym sumieniem. Przejrzysta wycena, szybka realizacja i bardzo miła obsługa. Na pewno skorzystam ponownie!",
+      "verified": true
+    }
+  ],
+  "totalReviews": 324,
+  "averageRating": 4.8,
+  "lastUpdated": "2025-09-23T20:20:00Z"
+}
